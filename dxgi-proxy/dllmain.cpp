@@ -106,6 +106,7 @@ HRESULT WINAPI detGetDesc3(IDXGIAdapter4* This, /* [annotation][out] */ _Out_  D
 		LOG("IDXGIAdapter4.GetDesc3 Spoofing card info");
 		pDesc->VendorId = 0x10de;
 		pDesc->DeviceId = 0x2684;
+		pDesc->DedicatedVideoMemory = 8388608;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
@@ -137,6 +138,7 @@ HRESULT WINAPI detGetDesc2(IDXGIAdapter2* This, /* [annotation][out] */ _Out_  D
 		LOG("IDXGIAdapter2.GetDesc2 Spoofing card info");
 		pDesc->VendorId = 0x10de;
 		pDesc->DeviceId = 0x2684;
+		pDesc->DedicatedVideoMemory = 8388608;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
@@ -167,6 +169,7 @@ HRESULT WINAPI detGetDesc1(IDXGIAdapter1* This, /* [annotation][out] */ _Out_  D
 		LOG("IDXGIAdapter1.GetDesc1 Spoofing card info");
 		pDesc->VendorId = 0x10de;
 		pDesc->DeviceId = 0x2684;
+		pDesc->DedicatedVideoMemory = 8388608;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
@@ -198,6 +201,7 @@ HRESULT WINAPI detGetDesc(IDXGIAdapter* This, /* [annotation][out] */ _Out_  DXG
 		LOG("IDXGIAdapter.GetDesc Spoofing card info");
 		pDesc->VendorId = 0x10de;
 		pDesc->DeviceId = 0x2684;
+		pDesc->DedicatedVideoMemory = 8388608;
 		//pDesc->SubSysId = 0x88ac1043;
 		//pDesc->Revision = 0x00a1;
 
